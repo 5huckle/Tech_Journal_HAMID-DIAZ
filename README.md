@@ -64,7 +64,28 @@ Windows Registry
    
    Hkey_Classes_Root: Holds file associations and file links. The information held here is what allows the correct application to start when you double-click a filename in Windows Explorer/File Explorer or My Computer/Computer (provided that the file extension is registered).
    
+
+## NOVEMBER 1, 2020
+
+Server-based network is where there is a main server computer, this computer is more powerful than the average home computer and can support hosting multiple other computer nodes on the network.
+
+Workgroups are when computers create a virtual link between eachother and share information without the moderation of a central host/server computer.
+
+COPPER MEDIA
+
+Types of cables
+
+  Twisted-Pair cables are as they sound, twisted. They can be shielded (STP) or unshielded (UTP). Shielded just provides an extra layer of foil to protect the cables
+  Plenum cables are less of a firerisk
   
- 
+OSI (Open Systems Interconnect) Model
+
+  Layer 1 (PHYSICAL)
+  Layer 2 (DATA LINK)
+  Layer 3 (NETWORK)
+  Layer 4 (TRANSPORT)
+  Layer 5 (SESSION)
+  Layer 6 (PRESENTATION)
+  Layer 7 (APPLICATION)
  
   
