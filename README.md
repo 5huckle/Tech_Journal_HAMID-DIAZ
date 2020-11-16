@@ -88,4 +88,19 @@ OSI (Open Systems Interconnect) Model
   Layer 6 (PRESENTATION)
   Layer 7 (APPLICATION)
  
+ 
+## NOVEMBER 15, 2020
+
+  C.I.A.
+    C - Confidentiality
+    I - Integrity
+    A - Availability
+  
+  Destory physical documents after they are no longer needed, to maintain privacy 
+  
+  Be thorough with planning for disaster and breaches. Make sure there are proceedures in place for handling information and what to do if information is compromised.
+  
+  Security features you could implement for wifi security can help encrypt your web traffic, hide your IPs, and restrict network access among other things. Using firewall policies that limit malicious IPs, prevent unvalidated input from being passed through to the network, and implementing Access Control rules can really help secure your data from every day attacks. Also blocking port 3306, because that is the port that MySql runs on and blocking the port effecitvely blocks the attack.
+  
+  
   
