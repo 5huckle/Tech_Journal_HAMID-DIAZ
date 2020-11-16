@@ -102,5 +102,6 @@ OSI (Open Systems Interconnect) Model
   
   Security features you could implement for wifi security can help encrypt your web traffic, hide your IPs, and restrict network access among other things. Using firewall policies that limit malicious IPs, prevent unvalidated input from being passed through to the network, and implementing Access Control rules can really help secure your data from every day attacks. Also blocking port 3306, because that is the port that MySql runs on and blocking the port effecitvely blocks the attack.
   
+  If you suspect you have malware on your computer, it would be a good thing to properly restart it. Suddenly disconnecting power from a computer can potentially cause a corruption in files. Restarting your computer can close any TCP connections it has open, and shut off any back door connections. 
   
   
