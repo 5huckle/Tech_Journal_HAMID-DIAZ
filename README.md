@@ -105,3 +105,16 @@ OSI (Open Systems Interconnect) Model
   If you suspect you have malware on your computer, it would be a good thing to properly restart it. Suddenly disconnecting power from a computer can potentially cause a corruption in files. Restarting your computer can close any TCP connections it has open, and shut off any back door connections. 
   
   
+## NOVEMBER 22, 2020
+
+Command used in Windows PowerShell ISE to see all files on a computer
+    Get-ChildItem -Path C:\   -Include *.ogg*,*.flac*,*.mp4*   -Recurse   -ErrorAction   SilentlyContinue
+Command used in Windows Powershell ISE to remove all files from a computer
+    Get-ChildItem -Path C:\ -Include *.ogg*,*.flac*,*.mp4* -Recurse -ErrorAction SilentlyContinue | foreach { Remove-Item -Path $_.FullName }
+Command used in Windows PowerShell ISE to see all pathways on a computer
+    Get-WMIObject -Class Win32_Service | seect Name, PathName
+    
+# Command List  
+  Net Accounts - checks password policy for users 
+  Net Share - See the accounts on a computer
+  wmic useraccount where name='Administrator' rename 'Admin' - Renames an account from CMD (Admin)
